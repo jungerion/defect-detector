@@ -1,0 +1,26 @@
+[project]
+name = "defect-detector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "pillow>=12.3.0",
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+    "uvicorn[standard]>=0.52.1",
+]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "kagglehub>=1.0.2",
+    "pytest>=9.1.1",
+    "ruff>=0.16.1",
+]
