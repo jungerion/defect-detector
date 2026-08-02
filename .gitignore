@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Data & models (regenerate via pipeline, don't commit)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*.pt
+models/*.pth
