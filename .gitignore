@@ -16,3 +16,4 @@ data/processed/*
 !data/processed/.gitkeep
 models/*.pt
 models/*.pth
+!models/defect_model.pt
