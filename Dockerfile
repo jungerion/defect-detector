@@ -8,7 +8,9 @@ WORKDIR /app
 COPY pyproject.toml README.md ./
 COPY src ./src
 
-RUN uv pip install --system .
+# RUN uv pip install --system .
+RUN uv pip install --system --extra-index-url https://download.pytorch.org/whl/cpu torch torchvision --no-cache-dir
+RUN uv pip install --system --no-cache-dir .
 
 COPY config ./config
 COPY models ./models
