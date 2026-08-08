@@ -3,7 +3,8 @@ data:
   test_dir: "data/raw/test"
   image_size: 128 # resize all images to 128x128 — keeps training fast
   batch_size: 32
-  class_names: ["ok_front", "def_front"] # index 0, 1 — order matters, must match folder names
+  # class_names: ["ok_front", "def_front"] # index 0, 1 — order matters, must match folder names
+  class_names: ["def_front", "ok_front"]
 
 model:
   architecture: "resnet18" # resnet18 | simple_cnn
