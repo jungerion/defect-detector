@@ -20,3 +20,7 @@ the riskier direction of error for a real quality-control use case.
 - Add Grad-CAM visualization to show _which part_ of an image the model
   focused on — valuable for building trust in a real QC deployment.
 - CI pipeline (GitHub Actions) to run tests automatically on every push.
+
+## Live Demo
+
+https://defect-detector.onrender.com/docs
