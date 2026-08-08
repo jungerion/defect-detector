@@ -8,6 +8,7 @@ dependencies = [
     "fastapi>=0.141.1",
     "pillow>=12.3.0",
     "pydantic>=2.13.4",
+    "python-multipart>=0.0.32",
     "pyyaml>=6.0.3",
     "scikit-learn>=1.9.0",
     "torch>=2.13.0",
